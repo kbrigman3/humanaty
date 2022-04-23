@@ -1,0 +1,231 @@
+.event {
+    position: relative;
+    text-align: left;
+    font-weight: bold;
+    font-size: x-large;
+    color: rgb(99, 109, 109);
+    margin-right: 21em;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.summarybox {
+    width : 16em;
+    background-color: white;
+    position: absolute;
+    top: 5%;
+    left: 60%;
+    height: 40%;
+    border: 1px solid whitesmoke;
+    border-radius: 25px;
+    box-shadow:  3px 2px 5px 3px rgb(238, 237, 237);
+    z-index: 3;
+}
+
+.reservationHeader {
+    text-align: left;
+    font-weight: bold;
+    font-size: large;
+    color: rgb(99, 109, 109);
+    margin-left: 5%;
+}
+
+.modseparate {
+    content: '';
+    position: relative;
+    width: 90%;
+    height: 1px;
+    color: black;
+    border: 1px solid #ddd;
+    margin: 5%;
+    z-index: 2;
+}
+
+.summaryboxdetails {
+    font-weight: 400;
+    font-size: 70%;
+    left: 5%;
+    position: relative;
+}
+
+.date1 {
+    font-weight: 400;
+    font-size: 55%;
+    left: 12%;
+    position: relative;
+}
+
+.dateimg {
+    position: relative;
+    left: 10%;
+    height: 6%;
+    width: 6%;
+    bottom: 5%;
+}
+
+.guestdetails1 {
+    font-weight: bold;
+    font-size: 70%;
+    left: 5%;
+    position: relative;
+}
+
+.guestdetails2 {
+    font-weight: lighter;
+    font-size: 70%;
+    left: 8%;
+    position: relative;
+    color: rgb(161, 161, 161);
+}
+
+.total1 {
+    font-weight: bold;
+    font-size: 70%;
+    position: relative;
+    left: 60%;
+    text-align: right;
+}
+
+.total2 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 90%;
+    color: rgb(99, 109, 109);
+    margin-left: 3%;
+}
+
+.total3 {
+    font-weight: bold;
+    font-size: 90%;
+    position: relative;
+    left: 65%;
+    text-align: right;
+}
+
+.cancellation1 {
+    position: absolute;
+    top: 47%;
+    left: 65%;
+    width: 0.5em;
+    height: 0.5em;
+}
+
+.cancellation2 {
+    font-weight: lighter;
+    position: absolute;
+    top: 46.5%;
+    left: 67%;
+    width: 35%;
+    font-size: small;
+}
+
+.numberCircle {
+    display:inline-block;
+    line-height:0px;
+    border-radius:50%;
+    border:2px solid;
+    font-size:18px;
+    margin-right: 4px;
+  }
+  
+.numberCircle span {
+    display:inline-block;
+
+    padding-top:50%;
+    padding-bottom:50%;
+
+    margin-left:6px;
+    margin-right:6px;
+}
+
+.sectionheader {
+    text-align: left;
+    font-weight: bold;
+    font-size: large;
+    color: rgb(99, 109, 109);
+    margin: auto;
+    position: relative;
+}
+
+.inputheader {
+    text-align: left;
+    font-weight: bold;
+    font-size: medium;
+    color: rgb(99, 109, 109);
+    position: relative;
+    margin: auto;
+    margin-top: 2%;
+}
+
+/* .sectionseparate {
+    content: '';
+    position: relative;
+    width: 90%;
+    height: 1px;
+    color: black;
+    border: 1px solid #ddd;
+    margin: left;
+    margin-left: 15em;
+    z-index: 2;
+} */
+
+.name-address-input {
+    width: auto;
+}
+
+.form-control {
+    width: 55%;
+}
+
+.zip-input {
+    width: auto;
+}
+
+.city-state-input {
+    width: 55%;
+}
+
+.paynowbutton {
+    background-color: #00674B;
+    width: 14em;
+    border-radius: 10ch;
+    border: #00674B;
+    border-style: solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: medium;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 13%;
+    transition-duration: 0.4s;
+    font-weight: 600;
+}
+
+.paynowbutton:hover {
+    background-color: rgb(0, 75, 55);
+    width: 14em;
+    border-radius: 10ch;
+    border: #00674B;
+    border-style: solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: medium;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 13%;
+    transition-duration: 0.5s;
+    font-weight: 600;
+}
+
+#block-container {
+    text-align: left;
+}
+
+#bloc1, #bloc2 {
+    display: inline-block;
+    width: 35%;
+}

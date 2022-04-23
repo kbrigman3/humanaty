@@ -1,0 +1,54 @@
+
+#navbar-profile-pic {
+    /* background-color: #d6d4d4; */
+    position: relative;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-left: 20px;
+    vertical-align: text-top;
+}
+
+#modal-profile-pic {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.modal-header {
+    display: inline !important;
+    align-items: center;
+}
+
+.modal-header-containter, .modal-content {
+    text-align: center !important;
+}
+
+#toggleMode {
+    text-align:center;
+}
+#basicInfo {
+    text-align:center;
+}
+
+.custom-dialog {
+    margin-top: auto !important;
+    display: inline-block !important;
+    position: relative;
+    float: right;
+    top: 60px !important;
+    margin-right: 15px;
+    width:280px !important;
+}
+
+#btn-profile {
+    border: solid #d6d4d4 1px;
+    padding: 10px;
+    border-radius: 95px;
+    cursor: pointer;
+}
+
+

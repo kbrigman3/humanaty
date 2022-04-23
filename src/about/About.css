@@ -1,0 +1,27 @@
+.wckContainer {
+    position: relative;
+    padding-top: 0px;
+    height: 100px;
+    width: 100%;
+}
+.wck {
+    height: 60px;
+    float: left;
+    
+}
+.wckText {
+    float: left;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+#about {
+    text-align: left;
+    overflow: hidden;
+    width: 1000px;
+    margin: auto;
+    height: 400px;
+}
+
+#logo {
+    size: 2em;
+}

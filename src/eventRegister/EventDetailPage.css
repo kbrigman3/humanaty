@@ -1,0 +1,241 @@
+.this-header {
+    font-weight: bold;
+    font-size: xx-large;
+    color: rgb(99, 109, 109);
+}
+
+.thisContainer {
+    width: 100%;
+    padding: 1em;
+}
+
+.detail-box {
+    width : 17em;
+    background-color: white;
+    position: fixed;
+    top: 25%;
+    margin-left: 5em;
+    left: 60%;
+    height: 20em;
+    border: 1px solid whitesmoke;
+    border-radius: 25px;
+    box-shadow:  3px 2px 5px 3px rgb(238, 237, 237);
+    z-index: 3;
+    
+}
+
+.modprice {
+    position: relative;
+    text-align: left;
+    font-weight: bold;
+    font-size: x-large;
+    color: rgb(99, 109, 109);
+    margin-left: 2em;
+    margin-top: 1em;
+}
+
+.modseparate {
+    content: '';
+    position: relative;
+    width: 90%;
+    height: 1px;
+    color: black;
+    border: 1px solid #ddd;
+    margin: auto;
+    z-index: 2;
+}
+
+.moddetails {
+    position: relative;
+    text-align: left;
+    font-weight: bold;
+    color: rgb(99, 109, 109);
+    margin-right: 21em;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+
+.input-group {
+    padding-left: 2em;
+    margin-right: 2em;
+   
+ } 
+
+.detail-next {
+    position: relative;
+    margin-top: 1em;
+    text-align: right;
+} 
+ .detail-labels {
+    text-align: left;
+    font-weight: bold;
+    color: rgb(99, 109, 109);
+    margin-top: 1em;
+    margin-left: 10em;
+  
+    width: 35%;
+    float: left;
+    position: relative;
+}
+ 
+.details {
+    position: relative;
+    text-align: left;
+    font-weight: bold;
+    color: rgb(99, 109, 109);
+    margin-right: 21em;
+    margin-top: 2em;
+    margin-left: 10em;
+} 
+
+.myEvent {
+  position: relative;
+  text-align: left;
+  font-weight: bold;
+  font-size: xx-large;
+  color: rgb(99, 109, 109);
+  margin-right: 12em;
+  margin-top: 2em;
+  margin-left: 7.5em;
+}
+
+.host {
+    cursor: pointer;
+    position: relative;
+    text-align: left;
+    font-size: x-large;
+    color: rgb(99, 109, 109);
+    margin-right: 21em;
+    margin-left: 12em;
+    margin-bottom: 1em;
+}
+
+.acctimg {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin-left: -50px;
+}
+
+  .number-of-guests {
+    width: 10em;
+    height: 2em;
+    padding-left: 5px;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-style: solid;
+  }
+
+  .reservebutton:hover {
+
+    /* this is for white -> filled in */
+    background-color: #00674b
+    ;
+    width: 15em;
+    border-radius: 10ch;
+    border: #00674b
+    ;
+    border-style: solid;
+    color: rgb(99, 109, 109);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    transition-duration: 0.5s;
+    font-weight: 600;
+    
+  }
+  .reservebutton {
+    
+
+    /* this is for white -> filled in */
+    background-color: white;
+    width: 14em;
+    border-radius: 10ch;
+    border: #00674b
+    ;
+    border-style: solid;
+    color: #00674b
+    ;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    transition-duration: 0.4s;
+    font-weight: 600;
+    
+  }
+
+  .detailheaders {
+    text-align: left;
+    font-weight: bold;
+    color: rgb(99, 109, 109);
+    margin-top: 5px;
+    margin-left: 15em;  
+    width: 35%;
+    position: relative;
+  }
+
+  .detaildescriptions {
+    text-align: left;
+    color: rgb(99, 109, 109);
+    margin-top: 5px;
+    margin-left: 15em;  
+    width: 35%;
+    position: relative;
+    margin-bottom: 2em;
+  }
+
+  .mealdescriptions {
+    text-align: left;
+    color: rgb(99, 109, 109);
+    margin-top: 5px;
+    margin-left: 15em;  
+    width: 35%;
+    position: relative;
+    margin-bottom: 2em;
+  }
+
+  .detailseparate {
+    content: '';
+    position: relative;
+    width: 45%;
+    height: 1px;
+    color: black;
+    border: 1px solid #ddd;
+    margin: left;
+    margin-left: 15em;
+    z-index: 2;
+  }
+
+  .mapouter {
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:500px;
+    margin-left: 15em;
+  }
+
+  .gmap_canvas {
+      overflow:hidden;
+
+      background:none!important;
+      height:500px;
+      width:500px;
+      border-radius: 3ch;
+      margin-top: 1em;
+  }
+
+ .dateFormat {
+  position: relative;
+  text-align: left;
+  font-weight: bold;
+  color: rgb(99, 109, 109);
+
+  margin-top: 1em;
+  margin-left: 1em;
+
+ }
